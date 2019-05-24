@@ -34,8 +34,8 @@ drink_coffee = "Drink Coffee"
 buy_chocolate = "Buy Chocolate"
 drink_milk_tea = "Drink Milk Tea"
 go_to_run = "Go To Run"
-clear_list = "Click on 5 to empty the list"
-show_list = "Click on 0 to check your list"
+clear_list = "Empty the list"
+show_list = "Check your list"
 add_own_item = "Add your Own Item"
 
 print("")

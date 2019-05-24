@@ -45,7 +45,9 @@ print("2: " + buy_chocolate)
 print("3: " + drink_milk_tea)
 print("4: " + go_to_run)
 print("5: " + clear_list)
-print("9: " + add_own_item)
+print("6: " + add_own_item)
+print("9: Exit the program")
+
 
 while True:
     choice = int(input("\nChoose one thing to add to the 'to do list': "))
@@ -65,5 +67,7 @@ while True:
         q.delete_all()
     elif choice == 0:
         print(q.display_all())
-    elif choice == 9:
+    elif choice == 6:
         q.append()
+    elif choice == 9:
+        break
